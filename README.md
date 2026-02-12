@@ -17,4 +17,4 @@ A Spotify-inspired Android app built with Jetpack Compose, currently showcasing 
 
 🚧 More features coming soon — music playback, home feed, search & more!
 
-https://github.com/user-attachments/assets/0995222d-d408-42c9-809a-1a507e725b1d
+![Image](https://github.com/user-attachments/assets/4c231ec2-5a06-43e8-85c3-555f24407c7b)
