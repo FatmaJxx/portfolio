@@ -56,7 +56,7 @@ This app was built using Cursor & Claude Code as AI coding assistants — explor
 
 ![Image](https://github.com/user-attachments/assets/cfb2b539-5f07-4df2-b140-1a62fe167b31)
 
-# 🤖 Telegram AI Chatbot — Python Backend
+# 🤖 [Telegram AI Chatbot](https://github.com/FatmaJxx/telegram-ai-chatbot)
 A production-ready AI assistant delivered via Telegram, built with a modern Python backend stack. The bot understands natural language and uses tools to give accurate, real-time answers — not just LLM guesses.
 
 ✨ What it can do:
@@ -77,5 +77,7 @@ A production-ready AI assistant delivered via Telegram, built with a modern Pyth
 Instead of asking the LLM to guess answers, the agent decides which tool to call, runs it, reads the result, then replies — a proper ReAct loop built with LangGraph.
 
 🚧 More tools coming soon — web search, reminders & more!
+
+[🔗 View Repository](https://github.com/FatmaJxx/telegram-ai-chatbot)
 
 <img width="1920" height="1080" alt="telegram-bot" src="https://github.com/user-attachments/assets/ff07872c-6f46-4403-bf87-b91f809be737" />
