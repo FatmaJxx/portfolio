@@ -56,3 +56,24 @@ This app was built using Cursor & Claude Code as AI coding assistants — explor
 
 ![Image](https://github.com/user-attachments/assets/cfb2b539-5f07-4df2-b140-1a62fe167b31)
 
+# 🤖 Telegram AI Chatbot — Python Backend
+A production-ready AI assistant delivered via Telegram, built with a modern Python backend stack. The bot understands natural language and uses tools to give accurate, real-time answers — not just LLM guesses.
+
+✨ What it can do:
+* 🌤️ Fetch live weather for any city in the world
+* 🧮 Evaluate math expressions accurately
+* 📖 Search Wikipedia for facts and knowledge
+* 🕐 Report the current date and time
+* 💬 Remember conversation history across sessions
+
+🛠️ Built With:
+* Python & FastAPI
+* LangGraph (agent loop with tool use)
+* Gemini (Google Generative AI)
+* MongoDB (persistent conversation memory)
+* Telegram Bot API
+
+🧠 How it works:
+Instead of asking the LLM to guess answers, the agent decides which tool to call, runs it, reads the result, then replies — a proper ReAct loop built with LangGraph.
+
+🚧 More tools coming soon — web search, reminders & more!
