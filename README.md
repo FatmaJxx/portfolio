@@ -77,3 +77,5 @@ A production-ready AI assistant delivered via Telegram, built with a modern Pyth
 Instead of asking the LLM to guess answers, the agent decides which tool to call, runs it, reads the result, then replies — a proper ReAct loop built with LangGraph.
 
 🚧 More tools coming soon — web search, reminders & more!
+
+<img width="1920" height="1080" alt="telegram-bot" src="https://github.com/user-attachments/assets/ff07872c-6f46-4403-bf87-b91f809be737" />
