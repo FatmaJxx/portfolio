@@ -1,51 +1,99 @@
 # Portfolio of Fatma
-👋 Hi, I'm an Android developer passionate about building smooth, modern mobile experiences using Jetpack Compose and Flutter. I love crafting beautiful UIs and recently I've been exploring how to bring AI assistants into mobile apps to make them smarter and more helpful. Always learning, always building — feel free to explore my projects and reach out! 🚀
+👋 Hi! I'm a software developer passionate about building modern mobile applications, backend APIs, and AI-powered applications. I enjoy developing mobile experiences using **Kotlin, Jetpack Compose, Flutter, and Dart**, with a focus on clean UI and maintainable code. I'm also expanding my backend development skills with **Java, Spring Boot, C#, .NET, ASP.NET Core, and SQL Server**, exploring layered architecture, authentication, RESTful API development, and maintainable backend design. 🤖 In AI development, I work with **Python, FastAPI, LangGraph, and LLMs** to build intelligent assistants that use tools and conversational memory to provide more useful responses.
+
+🚀 I'm always learning, building projects, and exploring new technologies. Feel free to explore my work and connect with me!
 
 
 # 🎵 [Spotify Clone — Android App (Jetpack Compose)](https://github.com/FatmaJxx/portfolio/blob/main/spotify-clone-architecture.md)
-A Spotify-inspired Android app built with Jetpack Compose, currently showcasing a fully designed authentication flow that replicates Spotify's clean and modern login experience.
 
-🔐 What's included so far:
-* Welcome / Splash screen
-* Login & Sign Up screens
-* Beautiful UI matching Spotify's dark theme & branding
+A full-stack Spotify-inspired application built with Kotlin, Jetpack Compose, and a Spring Boot backend. The project focuses on modular Android architecture, secure authentication, encrypted session storage, and communication with a REST API.
 
-🛠️ Built With:
-* Jetpack Compose
-* Material 3
-* Kotlin
+✨ **Key Features:**
+- 🔐 Authentication flow with Login, Sign Up, and passwordless magic-link authentication
+- 🔑 JWT-based authentication with automatic access-token refresh
+- 🔒 Encrypted local session storage using Proto DataStore and Android Keystore
+- 🌐 REST API integration with Retrofit and OkHttp
+- 🔄 Centralized authentication headers, retry handling, and token refresh logic
+- ✅ Reusable form validation with a multi-step registration flow
+- 🧱 Modular architecture separating core components and feature modules
+- 📱 Lifecycle-aware UI state management with Kotlin Flow and Jetpack Compose
+- 📐 Adaptive Home screen layout for phones, foldables, and tablets — in progress
 
-🚧 More features coming soon — music playback, home feed, search & more!
+🛠️ **Built With:**
+
+**Android:**
+- Kotlin
+- Jetpack Compose & Material 3
+- Hilt
+- Kotlin Coroutines & Flow
+- Navigation Compose
+- Proto DataStore
+- Android Keystore
+- Retrofit & OkHttp
+
+**Backend:**
+- Java
+- Spring Boot
+- JWT Authentication
+- PostgreSQL
+
+🏗️ **Architecture Highlights:**
+- Modular architecture with shared core modules and independent feature modules
+- Repository pattern separating UI features from network implementations
+- Custom authentication interceptors and token authenticator
+- Encrypted session persistence with Android Keystore-backed cryptography
+- Centralized dependency injection and reusable UI components
+
+🚧 **Work in Progress** — Developing the Home experience, adaptive navigation, and additional Spotify-inspired features.
+
+🔗 [View Architecture Documentation](https://github.com/FatmaJxx/portfolio/blob/main/spotify-clone-architecture.md)
+
 
 ![Image](https://github.com/user-attachments/assets/4c231ec2-5a06-43e8-85c3-555f24407c7b)
 
 
 # 🐦 Twitter / X Clone — Flutter App
-A Twitter-inspired mobile app built with Flutter, replicating the sleek and familiar experience of the world's most popular microblogging platform.
 
-✨ What's included so far:
-* 🔐 Authentication flow — Login & Sign Up screens with clean UI
-* 🏠 Home feed with tweets using local dummy data
+A Twitter-inspired mobile application built with Flutter, combining a familiar microblogging experience with an AI-powered chat assistant.
 
-🛠️ Built With:
-* Flutter
-* Dart
-* Material Design
+✨ **What's included so far:**
+- 🔐 Authentication UI with Login and Sign Up screens
+- 🏠 Home feed displaying tweets using local dummy data
+- 🤖 AI-powered chat screen integrated with Firebase AI (Gemini)
+- 🖼️ Multimodal conversations supporting text and image attachments
+- 🎨 Function calling that enables the assistant to generate images on request
 
+🏗️ **Architecture & Design:**
+- BLoC for state management
+- Repository pattern and use cases
+- Clean Architecture principles
+- AI chat functionality organized in an independent, decoupled module
 
-🚧 Still in progress — profile screen, search, notifications & more coming soon!
+🛠️ **Built With:**
+- Flutter
+- Dart
+- Firebase
+- Firebase AI (Gemini)
+- BLoC
+- Clean Architecture
+
+🚧 **Still in progress** — Profile screen, search, notifications, and additional social features are planned for future development.
+
 
 ![Image](https://github.com/user-attachments/assets/7cef5eba-7fb5-4d5c-924f-956388f9ee22)
+
 
 # 🤖 [Telegram AI Chatbot](https://github.com/FatmaJxx/telegram-ai-chatbot)
 A production-ready AI assistant delivered via Telegram, built with a modern Python backend stack. The bot understands natural language and uses tools to give accurate, real-time answers — not just LLM guesses.
 
 ✨ What it can do:
-* 🌤️ Fetch live weather for any city in the world
-* 🧮 Evaluate math expressions accurately
-* 📖 Search Wikipedia for facts and knowledge
-* 🕐 Report the current date and time
-* 💬 Remember conversation history across sessions
+* 🧠 User-specific data and conversation memory
+* 📄 Document reading and processing
+* 📅 Google Calendar integration
+* 🌤️ Live weather lookup
+* 🧮 Math calculations
+* 📖 Wikipedia search
+* 🕐 Date & time tools
 
 🛠️ Built With:
 * Python & FastAPI
@@ -61,7 +109,9 @@ Instead of asking the LLM to guess answers, the agent decides which tool to call
 
 [🔗 View Repository](https://github.com/FatmaJxx/telegram-ai-chatbot)
 
+
 <img width="1920" height="1080" alt="telegram-bot" src="https://github.com/user-attachments/assets/ff07872c-6f46-4403-bf87-b91f809be737" />
+
 
 # 🖥️ [TwitterBackend — .NET Web API](https://github.com/FatmaJxx/TwitterBackend)
 
