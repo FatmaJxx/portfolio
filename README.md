@@ -62,3 +62,34 @@ Instead of asking the LLM to guess answers, the agent decides which tool to call
 [🔗 View Repository](https://github.com/FatmaJxx/telegram-ai-chatbot)
 
 <img width="1920" height="1080" alt="telegram-bot" src="https://github.com/user-attachments/assets/ff07872c-6f46-4403-bf87-b91f809be737" />
+
+# 🖥️ [TwitterBackend — .NET Web API](https://github.com/FatmaJxx/TwitterBackend)
+
+A Twitter-inspired backend API built with C# and .NET 10, focusing on layered architecture, authentication, request validation, and reusable application infrastructure.
+
+✨ **Key Features:**
+- 🔐 JWT authentication with access and refresh tokens
+- 🏗️ Layered architecture separating Web API, Application, Domain, and Infrastructure
+- 🔄 Custom Mediator implementation with pipeline behaviors
+- ✅ Request validation using FluentValidation
+- 🛡️ Centralized exception handling and request logging
+- 🔒 Transaction and idempotency behaviors
+- 🗄️ Entity Framework Core with Microsoft SQL Server
+- ⚡ CancellationToken support for asynchronous operations
+
+🛠️ **Built With:**
+- C#
+- .NET 10 / ASP.NET Core
+- Entity Framework Core
+- Microsoft SQL Server
+- FluentValidation
+- JWT Bearer Authentication
+
+🏛️ **Architecture:**
+
+The solution follows a layered architecture, with a custom mediator and pipeline behaviors to centralize cross-cutting concerns such as validation, logging, exception handling, transactions, and idempotency.
+
+🚧 **Work in Progress** — Continuing to improve authentication flows, testing, and backend functionality.
+
+[🔗 View Repository](https://github.com/FatmaJxx/TwitterBackend)
+
