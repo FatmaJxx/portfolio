@@ -3,6 +3,42 @@
 
 🚀 I'm always learning, building projects, and exploring new technologies. Feel free to explore my work and connect with me!
 
+# 📝 [Notes — AI-Powered Android App](https://github.com/FatmaJxx/notes)
+
+An adaptive Android notes application built with Kotlin and Jetpack Compose, featuring an offline AI assistant powered by Gemma and LiteRT-LM. The assistant can interact with app functionality through tools and display structured results using AndroidX A2UI.
+
+✨ **Key Features:**
+- 🤖 Offline AI assistant powered by Gemma 4 E2B IT
+- 🛠️ AI tool calling for creating, searching, and deleting notes
+- 🧩 Dynamic UI rendering using AndroidX A2UI and custom components
+- 🎙️ Voice input using ML Kit GenAI Speech Recognition
+- 📝 Notes with checklists, tags, folders, and favorites
+- ⏰ One-time and recurring reminders with notifications
+- 📱 Home-screen widget built with Jetpack Glance
+- 📐 Adaptive layouts and navigation for phones, foldables, and tablets
+- 🌙 Dark theme with a consistent Material 3 design.
+
+🛠️ **Built With:**
+- Kotlin
+- Jetpack Compose & Material 3
+- Gemma 4 E2B IT & LiteRT-LM
+- AndroidX A2UI
+- Room & Preferences DataStore
+- Koin
+- Kotlin Coroutines & Flow
+- ML Kit GenAI Speech Recognition
+- Navigation 3 & Material 3 Adaptive
+- Jetpack Glance
+
+🏗️ **Architecture Highlights:**
+- Offline AI inference with local model execution
+- Tool integration using shared application repositories
+- Structured AI responses rendered through custom A2UI components
+- Reactive data handling with Room, Flow, and Coroutines
+- Adaptive UI supporting multiple device form factors
+
+🚧 **Note:** The AI model must be downloaded before using the offline assistant.
+
 
 # 🎵 [Spotify Clone — Android App (Jetpack Compose)](https://github.com/FatmaJxx/portfolio/blob/main/spotify-clone-architecture.md)
 
